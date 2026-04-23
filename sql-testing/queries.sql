@@ -1,21 +1,21 @@
 USE northwind;
 
--- =========================================
+
 -- 1. VIEW AVAILABLE TABLES
--- =========================================
+
 SHOW TABLES;
 
--- =========================================
+
 -- 2. CHECK SAMPLE DATA
--- =========================================
+
 SELECT * FROM customers LIMIT 10;
 SELECT * FROM orders LIMIT 10;
 SELECT * FROM products LIMIT 10;
 SELECT * FROM order_details LIMIT 10;
 
--- =========================================
+
 -- 3. DATA COMPLETENESS CHECKS
--- =========================================
+
 
 -- Customers with missing company name
 SELECT *
@@ -42,9 +42,9 @@ SELECT *
 FROM products
 WHERE list_price IS NULL;
 
--- =========================================
+
 -- 4. DUPLICATE CHECKS
--- =========================================
+
 
 -- Duplicate customer IDs
 SELECT id, COUNT(*) AS duplicate_count
@@ -64,9 +64,9 @@ FROM orders
 GROUP BY id
 HAVING COUNT(*) > 1;
 
--- =========================================
+
 -- 5. RELATIONSHIP / FOREIGN KEY CHECKS
--- =========================================
+
 
 -- Orders referencing customers that do not exist
 SELECT o.*
@@ -92,9 +92,11 @@ FROM products p
 LEFT JOIN suppliers s ON p.supplier_ids = s.id
 WHERE p.supplier_ids IS NOT NULL AND s.id IS NULL;
 
--- =========================================
+
+
 -- 6. BUSINESS LOGIC VALIDATION
--- =========================================
+
+
 
 -- Orders shipped before order date
 SELECT *
@@ -133,9 +135,11 @@ SELECT *
 FROM order_details
 WHERE discount < 0 OR discount > 1;
 
--- =========================================
+
+
 -- 7. AGGREGATE / SUMMARY VALIDATION
--- =========================================
+
+
 
 -- Total number of orders by customer
 SELECT c.company, COUNT(o.id) AS total_orders
@@ -163,9 +167,11 @@ LEFT JOIN products p ON s.id = p.supplier_ids
 GROUP BY s.id, s.company
 ORDER BY total_products DESC;
 
--- =========================================
+
+
 -- 8. REVENUE-STYLE VALIDATION
--- =========================================
+
+
 
 -- Total sales by product
 SELECT p.product_name,
@@ -184,9 +190,11 @@ JOIN order_details od ON o.id = od.order_id
 GROUP BY c.id, c.company
 ORDER BY total_sales DESC;
 
--- =========================================
+
+
 -- 9. DATE RANGE / OUTLIER CHECKS
--- =========================================
+
+
 
 -- Orders with very large shipping fee
 SELECT *
@@ -199,9 +207,11 @@ FROM orders
 WHERE status_id IS NOT NULL
   AND shipped_date IS NULL;
 
--- =========================================
+
+
 -- 10. BASIC QA SUMMARY QUERIES
--- =========================================
+
+  
 
 SELECT COUNT(*) AS total_customers FROM customers;
 SELECT COUNT(*) AS total_orders FROM orders;
