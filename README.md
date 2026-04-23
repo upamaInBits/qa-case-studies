@@ -114,8 +114,6 @@ Focus: System behavior & workflow validation
 
 ---
 
-## Proof of Work
-
 This repository includes:
 - Test cases
 - Bug reports
