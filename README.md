@@ -15,6 +15,7 @@ This repository showcases my ability to think like a QA engineer—identifying e
 ---
 
 ## Project Structure
+
 qa-case-studies/
 │
 ├── api-testing-(postman)
