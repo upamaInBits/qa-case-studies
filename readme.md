@@ -36,7 +36,7 @@ This repository showcases my approach to manual testing across different systems
 - Test cases  
 - Exploratory testing documentation  
 
-📂 See: `demo-webshop-testing/`
+See: `demo-webshop-testing/`
 
 ---
 
@@ -82,7 +82,7 @@ Tested backend behavior by sending requests and validating system responses.
 - API testing scenarios  
 - Test scenarios  
 
-📂 See: `queue-system-testing/`
+See: `queue-system-testing/`
 
 ---
 
