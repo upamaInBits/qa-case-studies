@@ -23,6 +23,11 @@ pm.test("User has required fields", function () {
     pm.expect(data[0]).to.have.property("name");
     pm.expect(data[0]).to.have.property("email");
 });
+```
+
+## Screenshot
+<img width="1128" height="912" alt="image" src="https://github.com/user-attachments/assets/cc698eeb-da1d-4db7-bace-fca2b92e96ae" />
+
 
 
 
