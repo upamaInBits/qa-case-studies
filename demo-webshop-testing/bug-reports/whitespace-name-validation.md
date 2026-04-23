@@ -8,6 +8,9 @@
 The registration form allows users to enter whitespace-only values in the First Name and Last Name fields, which are accepted as valid input.
 
 <img width="739" height="387" alt="image" src="https://github.com/user-attachments/assets/2a04606f-a074-4423-8449-96dc65c3a652" />
+
+## 
+
 <img width="818" height="387" alt="image" src="https://github.com/user-attachments/assets/b3578c66-213c-4a83-a027-176232e57b9f" />
 
 
