@@ -1,4 +1,4 @@
-# Data Validation Testing (SQL Perspective)
+# Data Validation Testing (Database verification)
 
 ## Objective
 To verify that data stored in Google Sheets accurately reflects user actions performed in the application.
