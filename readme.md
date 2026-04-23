@@ -1,6 +1,8 @@
 # QA Case Studies
 
 This repository demonstrates my approach to manual testing through real-world scenarios on a demo e-commerce application.
+Link: https://demowebshop.tricentis.com/ 
+Date tested: April 22, 2026
 
 ## Scope
 - User Registration Testing
