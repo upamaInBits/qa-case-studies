@@ -2,7 +2,7 @@
 
 ## Scenario
 Verify that the system enforces password rules and matching confirmation.
-
+<img width="790" height="351" alt="Screenshot 2026-04-22 at 6 41 18 PM" src="https://github.com/user-attachments/assets/276979ff-2213-482d-865a-7b4a016a573b" />
 
 ## Steps
 1. Enter password shorter than 6 characters  
