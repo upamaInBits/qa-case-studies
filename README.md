@@ -1,7 +1,5 @@
 A collection of hands-on QA testing projects demonstrating testing practices across web applications, APIs, databases, and system workflows.
 
-This repository showcases my ability to think like a QA engineer—identifying edge cases, validating system behavior, and ensuring data integrity across multiple layers of an application.
-
 ---
 
 ## What This Repository Covers
