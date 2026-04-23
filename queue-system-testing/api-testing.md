@@ -44,6 +44,11 @@ This approach was used because the backend is exposed through Apps Script functi
 - queue entry appears in dashboard
 - Google Sheets reflects the new entry
 
+<img width="667" height="471" alt="image" src="https://github.com/user-attachments/assets/aa8d0f0f-b2da-4dcf-8095-1e4af4dc3b7b" />
+---
+<img width="407" height="103" alt="image" src="https://github.com/user-attachments/assets/e95401ca-d21f-4262-8b1c-9526e1971289" />
+
+
 ---
 
 ### 2. Existing Client Handling
@@ -57,6 +62,8 @@ This approach was used because the backend is exposed through Apps Script functi
 **Validated:**
 - duplicate handling works as expected
 - system does not create duplicate active queue entries
+  
+<img width="673" height="600" alt="image" src="https://github.com/user-attachments/assets/5a3daf15-7548-4b63-8d88-11fd42d5940f" />
 
 ---
 
@@ -71,6 +78,11 @@ This approach was used because the backend is exposed through Apps Script functi
 - dashboard displays latest queue entries
 - waiting / in-office / ready counts update correctly
 
+<img width="1134" height="844" alt="image" src="https://github.com/user-attachments/assets/4a6cb568-675b-43a6-b232-41fa047346db" />
+---
+<img width="941" height="102" alt="image" src="https://github.com/user-attachments/assets/1b4a989f-111e-4bad-982a-6ec3dfafe6b6" />
+
+
 ---
 
 ### 4. Status Update
@@ -84,6 +96,7 @@ This approach was used because the backend is exposed through Apps Script functi
 - status changes appear correctly in dashboard
 - matching row is updated in Google Sheets
 
+<img width="1112" height="817" alt="image" src="https://github.com/user-attachments/assets/10fd4457-9208-4a86-a57c-1cf4f6122bac" />
 ---
 
 ### 5. Queue Reset
@@ -96,6 +109,11 @@ This approach was used because the backend is exposed through Apps Script functi
 **Validated:**
 - current-day queue entries are removed
 - dashboard reflects empty or updated queue state
+
+<img width="1112" height="817" alt="image" src="https://github.com/user-attachments/assets/5388b8e9-ba0b-4b4d-9557-dccefeaf4781" />
+---
+<img width="875" height="182" alt="image" src="https://github.com/user-attachments/assets/4c7e852b-7522-48c5-8dd4-58fa028cde86" />
+
 
 ---
 
