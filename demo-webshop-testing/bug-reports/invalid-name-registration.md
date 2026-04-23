@@ -8,7 +8,6 @@
 The registration form allows users to register with invalid name values consisting only of numbers and special characters.
 <img width="700" height="492" alt="image" src="https://github.com/user-attachments/assets/b1e1f06d-e4a0-451e-9a9e-e488d65738fa" />
 ##
-##
 <img width="906" height="492" alt="image" src="https://github.com/user-attachments/assets/c9c03b51-b511-4601-8c39-ee240d3821f0" />
 
 ## Steps to Reproduce
