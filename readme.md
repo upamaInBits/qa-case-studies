@@ -1,113 +1,129 @@
-# QA Case Studies
+A collection of hands-on QA testing projects demonstrating testing practices across web applications, APIs, databases, and system workflows.
 
-This repository showcases my approach to manual testing across different systems, focusing on validation, user workflows, data integrity, and backend behavior.
+This repository showcases my ability to think like a QA engineer—identifying edge cases, validating system behavior, and ensuring data integrity across multiple layers of an application.
+
+---
+
+## What This Repository Covers
+
+- Manual Testing (Exploratory + UI Testing)
+- API Testing using Postman
+- SQL Data Validation
+- End-to-End System Testing
+- Bug Reporting & Test Case Design
+
+---
+
+## Project Structure
+qa-case-studies/
+│
+├── api-testing-(postman)
+│ ├── api-readme.md
+│ ├── api-tests.md
+│
+├── demo-webshop-testing
+│ ├── bug-reports/
+│ ├── test-cases/
+│ ├── demo-webshop-readme.md
+│
+├── queue-system-testing
+│ ├── api-testing/
+│ ├── sql-testing/
+│ ├── queue-system-readme.md
+│
+├── sql-testing
+│ ├── queries.sql
+│ ├── sql-readme.md
+│ ├── tests-images.md
+│
+└── readme.md
+
 
 ---
 
 ## Projects
 
-### 1. Demo Web Shop Testing  
-**Application:** https://demowebshop.tricentis.com/  
-**Focus:** UI Testing, Validation, Exploratory Testing  
+### Demo Web Shop Testing
+`demo-webshop-testing/`
 
-#### Scope
-- User Registration
-- Input validation (name, email, password)
-- Error handling and user feedback
+- Exploratory testing of user registration
+- Input validation & edge case testing
+- Bug reports and structured test cases
 
-#### Testing Approach
-- Exploratory testing
-- Negative testing
-- Edge case analysis
-
-#### Key Findings
-**Bugs Identified:**
-- Whitespace-only names accepted  
-- Numeric and special characters allowed in name fields  
-- Register button allows multiple submissions (UX issue)
-
-**Successful Validations:**
-- Invalid email formats are rejected  
-- Duplicate email registration is blocked  
-- Password validation rules are enforced  
-
-#### Artifacts
-- Bug reports  
-- Test cases  
-- Exploratory testing documentation  
-
-See: `demo-webshop-testing/`
+Focus: UI testing, validation logic, user workflows
 
 ---
 
-### 2. Queue Management System Testing  
-**Focus:** Data Validation & API Testing  
+### API Testing (Postman)
+`api-testing-(postman)/`
 
-#### System Overview
-- Frontend: Web-based client sign-in & staff dashboard  
-- Backend: Google Apps Script  
-- Database: Google Sheets  
+- GET & POST endpoint validation
+- Status code and response checks
+- JSON structure validation using Postman tests
 
----
-
-### Data Validation (SQL Perspective)
-Validated data consistency by verifying that user actions correctly update the database (Google Sheets).
-
-**Tested:**
-- Client creation and storage  
-- Queue entry creation  
-- Status updates (Waiting → In Office → Ready)  
-- Data consistency across sheets  
+Focus: API reliability & response validation
 
 ---
 
-### API Testing (Apps Script Backend)
-Tested backend behavior by sending requests and validating system responses.
+### SQL Data Validation
+`sql-testing/`
 
-**Tested:**
-- Client sign-in requests  
-- Queue retrieval  
-- Status updates  
-- Queue reset functionality  
+- Data integrity checks using SQL queries
+- Duplicate, null, and relationship validation
+- Business logic verification
 
-**Approach:**
-- UI-triggered backend validation  
-- Postman-based request testing (via Apps Script web endpoints)  
-- Verified response behavior and corresponding data updates  
+Focus: Database testing & backend validation
 
 ---
 
-#### Artifacts
-- Data validation documentation  
-- API testing scenarios  
-- Test scenarios  
+### Queue Management System Testing
+`queue-system-testing/`
 
-See: `queue-system-testing/`
+- End-to-end system testing
+- UI + backend validation (Google Apps Script + Sheets)
+- Workflow testing (Waiting → In Office → Ready)
 
----
-
-## Skills Demonstrated
-
-- Manual Testing  
-- Exploratory Testing  
-- Test Case Design  
-- Bug Reporting  
-- UI/UX Validation  
-- Edge Case & Negative Testing  
-- Data Validation (Database Testing)  
-- API Testing (Backend Behavior)  
+Focus: System behavior & workflow validation
 
 ---
 
 ## Tools & Technologies
 
-- Google Apps Script  
-- Google Sheets (as database)  
-- Postman  
-- GitHub  
+- Postman
+- MySQL Workbench
+- Google Apps Script
+- Google Sheets
+- Chrome DevTools
+- SQL
 
 ---
 
-## Summary
+## Key Skills Demonstrated
 
-These case studies demonstrate my ability to test both frontend and backend systems by identifying validation gaps, verifying data integrity, and ensuring consistent system behavior across workflows.
+- Exploratory Testing
+- Negative Testing
+- Edge Case Analysis
+- API Validation
+- Data Integrity Testing
+- Bug Reporting
+- Test Case Design
+- End-to-End Testing
+
+---
+
+## Proof of Work
+
+This repository includes:
+- Test cases
+- Bug reports
+- SQL queries
+- API test scripts
+- System-level testing documentation
+
+---
+
+## Why This Matters
+
+These projects reflect practical QA skills applied to real systems. Each case study focuses on identifying real issues, validating expected behavior, and improving overall software quality.
+
+---
