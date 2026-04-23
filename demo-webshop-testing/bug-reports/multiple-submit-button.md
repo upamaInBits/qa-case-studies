@@ -7,6 +7,7 @@
 The Register button remains clickable during form submission, allowing multiple rapid submissions which result in duplicate email error messages after a successful registration.
 
 <img width="616" height="304" alt="image" src="https://github.com/user-attachments/assets/99a6bd63-3dda-44c2-b75e-f269b971d885" />
+##
 <img width="629" height="304" alt="image" src="https://github.com/user-attachments/assets/aeaca1dc-e29f-45ea-92a1-0af2430d5236" />
 
 ## Steps to Reproduce
