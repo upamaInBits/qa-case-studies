@@ -125,8 +125,6 @@ This repository includes:
 
 ---
 
-## Why This Matters
-
 These projects reflect practical QA skills applied to real systems. Each case study focuses on identifying real issues, validating expected behavior, and improving overall software quality.
 
 ---
