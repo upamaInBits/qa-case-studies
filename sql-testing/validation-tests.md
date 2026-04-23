@@ -34,6 +34,10 @@ Examples:
 - Products with no orders
 - Customers with no orders
 
+
+## Summary
+These validation checks were used to identify anomalies, verify data quality, and confirm that relationships and business rules were maintained in the database.
+
 ## Findings
 - No duplicate primary IDs found in core tables
 - No orphan order records found for customers
@@ -41,5 +45,3 @@ Examples:
 - Validated that shipped dates do not occur before order dates
 - Identified whether any customers or products had no related transactions
 
-## Summary
-These validation checks were used to identify anomalies, verify data quality, and confirm that relationships and business rules were maintained in the database.
