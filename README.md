@@ -4,13 +4,10 @@ A collection of hands-on QA testing projects demonstrating testing practices acr
 
 ## What This Repository Covers
 
-- Manual Testing (Exploratory + UI Testing)
 - API Testing using Postman
-- SQL Data Validation
+- Manual Testing (Exploratory + UI Testing)
 - End-to-End System Testing
-- Bug Reporting & Test Case Design
-
----
+- SQL Data Validation
 
 ## Project Structure
 
@@ -44,17 +41,6 @@ qa-case-studies/
 
 ## Projects
 
-### Demo Web Shop Testing
-`demo-webshop-testing/`
-
-- Exploratory testing of user registration
-- Input validation & edge case testing
-- Bug reports and structured test cases
-
-Focus: UI testing, validation logic, user workflows
-
----
-
 ### API Testing (Postman)
 `api-testing-(postman)/`
 
@@ -66,14 +52,14 @@ Focus: API reliability & response validation
 
 ---
 
-### SQL Data Validation
-`sql-testing/`
+### Demo Web Shop Testing
+`demo-webshop-testing/`
 
-- Data integrity checks using SQL queries
-- Duplicate, null, and relationship validation
-- Business logic verification
+- Exploratory testing of user registration
+- Input validation & edge case testing
+- Bug reports and structured test cases
 
-Focus: Database testing & backend validation
+Focus: UI testing, validation logic, user workflows
 
 ---
 
@@ -88,14 +74,25 @@ Focus: System behavior & workflow validation
 
 ---
 
+### SQL Data Validation
+`sql-testing/`
+
+- Data integrity checks using SQL queries
+- Duplicate, null, and relationship validation
+- Business logic verification
+
+Focus: Database testing & backend validation
+
+---
+
+
 ## Tools & Technologies
 
 - Postman
-- MySQL Workbench
+- MySQL 
 - Google Apps Script
 - Google Sheets
 - Chrome DevTools
-- SQL
 
 ---
 
@@ -109,15 +106,6 @@ Focus: System behavior & workflow validation
 - Bug Reporting
 - Test Case Design
 - End-to-End Testing
-
----
-
-This repository includes:
-- Test cases
-- Bug reports
-- SQL queries
-- API test scripts
-- System-level testing documentation
 
 ---
 
