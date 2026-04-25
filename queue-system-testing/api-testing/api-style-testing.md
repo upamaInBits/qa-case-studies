@@ -1,4 +1,4 @@
-# API Testing (Apps Script Backend)
+# API-style testing (Apps Script Backend)
 
 ## Objective
 To verify that backend functions in the queue management system correctly process user actions, return expected results, and keep frontend behavior consistent with stored data.
