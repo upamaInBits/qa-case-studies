@@ -18,25 +18,25 @@ A collection of hands-on QA testing projects demonstrating testing practices acr
 qa-case-studies/
 │
 ├── api-testing-(postman)
-│ ├── api-readme.md
+│ ├── README.md
 │ ├── api-tests.md
 │
 ├── demo-webshop-testing
 │ ├── bug-reports/
 │ ├── test-cases/
-│ ├── demo-webshop-readme.md
+│ ├── README.md
 │
 ├── queue-system-testing
 │ ├── api-testing/
 │ ├── sql-testing/
-│ ├── queue-system-readme.md
+│ ├── README.md
 │
 ├── sql-testing
 │ ├── queries.sql
-│ ├── sql-readme.md
+│ ├── README.md
 │ ├── tests-images.md
 │
-└── readme.md
+└─├── README.md
 ```
 
 
